@@ -52,11 +52,12 @@ Set the source directory for the files and read these files into data table
 - features.txt
 - activity_labels.txt
 - subject_train.txt
-- x_train.txt
+- X_train.txt
 - y_train.txt
 - subject_test.txt
-- x_test.txt
+- X_test.txt
 - y_test.txt
+
 Assign variables to the training and test data table. Combine them to create one data set.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
