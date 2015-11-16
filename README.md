@@ -27,4 +27,4 @@ This course project consists of R script called run_analysis.R that does the fol
 3. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in your working directory.
 
 ## Dependencies
-The script depends on ```data.table```. The script will install it automatically if not present.
+The script depends on library ```data.table```. The script will install it automatically if not present.
