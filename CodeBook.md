@@ -46,28 +46,29 @@ The following files are available for the train and test data. Their description
 
 ## Transformation details
 
-1. Merges the training and the test sets to create one data set.
-Set the source directory for the files and read these files into data table
-features.txt
-activity_labels.txt
-subject_train.txt
-X_train.txt
-y_train.txt
-subject_test.txt
-X_test.txt
-y_test.txt
+Step1: Merges the training and the test sets to create one data set.
+Set the source directory for the files. Read these files into data table. 
+ - features.txt
+ - activity_labels.txt
+ - subject
+ - subject_train.txt
+ - X_train.txt
+ - y_train.txt
+ - subject_test.txt
+ - X_test.txt
+ - y_test.txt
 
 Assign variables to the training and test data table. Combine them to create one data set.
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
+Step2: Extracts only the measurements on the mean and standard deviation for each measurement.
 Create a logical vector that has TRUE values for the subject ID, activity code, mean and stdev variables and FALSE values for the remaining variables.
 Subset this data set to keep only the necessary variables/columns.
 
-3. Uses descriptive activity names to name the activities in the data set
+Step3: Uses descriptive activity names to name the activities in the data set
 Merge subset data with the activity table to have the descriptive activity names for its corresponding activity code.
 
-4. Appropriately labels the data set with descriptive activity names.
+Step4: Appropriately labels the data set with descriptive activity names.
 Use gsub function for pattern replacement to clean up the data labels.
 
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Step5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Use dcast function to produce tidy data with average of each variable for each subject and each activity.
