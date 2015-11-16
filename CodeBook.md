@@ -46,18 +46,16 @@ The following files are available for the train and test data. Their description
 
 ## Transformation details
 
-There are 5 steps
-
 1. Merges the training and the test sets to create one data set.
 Set the source directory for the files and read these files into data table
-- features.txt
-- activity_labels.txt
-- subject_train.txt
-- X_train.txt
-- y_train.txt
-- subject_test.txt
-- X_test.txt
-- y_test.txt
+features.txt
+activity_labels.txt
+subject_train.txt
+X_train.txt
+y_train.txt
+subject_test.txt
+X_test.txt
+y_test.txt
 
 Assign variables to the training and test data table. Combine them to create one data set.
 
