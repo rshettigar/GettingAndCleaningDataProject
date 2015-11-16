@@ -46,7 +46,8 @@ The following files are available for the train and test data. Their description
 
 ## Transformation details
 
-There are 5 steps:
+There are 5 steps
+
 1. Merges the training and the test sets to create one data set.
 Set the source directory for the files and read these files into data table
 - features.txt
